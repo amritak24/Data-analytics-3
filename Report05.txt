@@ -1,0 +1,28 @@
+Following is the gene count for intersection with respective datasets and data for genes for which the count for smokers increase or decrease in smokers wrt non smokers in males and females respectively. The same is generated as the output of the code along with the output histogram for the p_values.
+
+gene count NKCellCytotoxicity data :  7
+intersecting genes for NKCellCytotoxicity data : {'PTPN6', 'HLA-C', 'IFNG', 'HLA-E', 'PRF1', 'HLA-G', 'KLRC2'}
+
+gene count FreeRadicalResponse data :  0
+intersecting genes for FreeRadicalResponse data : set()
+
+gene count DNARepair1 data :  1
+intersecting genes for DNARepair1 data : {'PNKP'}
+
+gene count XenobioticMetabolism1 data :  6
+intersecting genes for XenobioticMetabolism1 data : {'AADAC', 'HNF4A', 'SULT1A1', 'CYP2S1', 'AS3MT', 'AOC2'}
+
+Total number of intersecting genes:  14
+
+male smoker value higher than male non smoker for these genes : 
+ {'AADAC', 'IFNG', 'HLA-E', 'HNF4A', 'PRF1', 'HLA-G', 'AS3MT', 'KLRC2'}
+
+male smoker value lower than male non smoker for these genes : 
+ {'PTPN6', 'HLA-C', 'HLA-E', 'HNF4A', 'SULT1A1', 'CYP2S1', 'HLA-G', 'PNKP', 'AOC2'}
+
+female smoker value higher than female non smoker for these genes : 
+ {'PTPN6', 'HLA-C', 'HLA-E', 'HNF4A', 'SULT1A1', 'CYP2S1', 'HLA-G', 'PNKP', 'AOC2'}
+
+female smoker value lower than female non smoker for these genes : 
+ {'IFNG', 'PRF1', 'AS3MT', 'KLRC2', 'AADAC'}
+
